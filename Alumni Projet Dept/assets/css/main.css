@@ -1,0 +1,143 @@
+body {
+	background-color:#555555;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	padding-left: 375px;
+	padding-right: 375px;
+	font-family: "Arial";
+}
+
+h1 {
+	margin-left:10px;
+	color:#96b2ea;
+	font-size:25px;
+}
+
+h2 {
+	color: #004575;
+	background-color: #cccccc;
+	border-radius: 5px;
+	margin-top: 25px;
+	margin-left:15px;
+	padding-left:10px;
+	padding-right:5%;
+	display: table;
+	font-size:20px;
+}
+
+h3 {
+	margin-left: 20px;
+	font-size:15px;
+}
+
+p {
+	text-align: justify;
+	padding-left:20px;
+}
+
+.navbar{
+    min-height:40px;
+    padding-left:0px;
+    padding-right:0px;
+    background-color:#1E1E1E;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+   }
+
+.navbar ul{
+	padding:0;
+	margin:0;
+	list-style-type: none;
+}
+
+.titre{
+	float:left;
+	text-decoration: none;
+	color: #999999;
+	font-size: 21px;
+	padding-left: 20%;
+	padding-top: 9px;
+}
+
+.titre:hover{
+	color: white;
+}
+
+.navbar ul li a{
+	text-align: center;
+	display : block;
+	float : left;
+	text-decoration: none;
+	float:left;
+	margin-left: 20px;
+	padding:11px; 
+	font-size: 14px;
+}
+
+.navbar li {
+	margin-left:0px;
+}
+
+.navbar ul li a:hover{
+	color:white;
+}
+
+.cadre_principal {
+	background-color:white;
+	border:solid 10px white;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.img-circle{
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    border-radius:500px;
+	max-width: 100%;
+	float : right;
+}
+
+.unit{
+	padding:10px 60px 30px 60px;
+	margin-bottom:30px;
+	font-size:18px;
+	font-weight:200;
+	line-height:30px;
+	color:inherit;
+	background-color:#004575;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+
+.unit h1{
+	margin-bottom:0;
+	font-size:30px;
+	line-height:1;
+	letter-spacing:-1px;
+}
+
+.unit li{
+	line-height:30px;
+}
+
+.active{
+	background-color: #111111;
+	color: white;
+}
+
+.gris{
+	color:#999999;
+}
+
+.lien{
+	text-decoration: none;
+	color:#2479B3;
+}
+
+.lien:hover{
+	text-decoration: underline;
+}
